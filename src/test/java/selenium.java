@@ -13,15 +13,6 @@ import java.util.Properties;
 public class selenium {
     public static void main(String[] args) throws InterruptedException, IOException {
       System.out.println( "my world");
-      //int a=10;
-      //int b=22;
-      //boolean c =a>=b;
-      //System.out.println(c);
-
-//WebDriverManager.chromedriver().setup();
-//    WebDriver driver=new ChromeDriver();
-//    driver.manage().window().maximize();
-//    driver.get("https://www.google.com");
 
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream("./src/test/resources/staging.properties");
